@@ -1,0 +1,35 @@
+{
+    "name": "smash-language-vscode",
+    "displayName": "Smashtest language support",
+    "description": "Syntax highlighting for Smashtest",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "smash",
+                "aliases": [
+                    "Smashtest",
+                    "smash"
+                ],
+                "extensions": [
+                    ".smash"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "smash",
+                "scopeName": "source.smash",
+                "path": "./syntaxes/smash.tmLanguage.json"
+            }
+        ]
+    },
+    "publisher": "toofifty"
+}
