@@ -31,5 +31,8 @@
             }
         ]
     },
+    "repository": {
+        "url": "https://github.com/Toofifty/smash-language-vscode"
+    },
     "publisher": "toofifty"
 }
