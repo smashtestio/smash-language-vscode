@@ -2,7 +2,7 @@
     "name": "smash-language-vscode",
     "displayName": "Smashtest language support",
     "description": "Syntax highlighting for Smashtest",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "engines": {
         "vscode": "*"
     },
