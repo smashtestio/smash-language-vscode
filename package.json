@@ -34,12 +34,21 @@
                 "path": "./syntaxes/smash.tmLanguage.json"
             }
         ],
-        "commands": [
-            {
-                "command": "extension.helloWorld",
-                "title": "Hello World"
+        "configuration": {
+            "title": "Smashtest language support",
+            "properties": {
+                "smash.intellisenseCase": {
+                    "type": "string",
+                    "default": "Automatic",
+                    "description": "Capitalisation of steps generated via Intellisense",
+                    "enum": [
+                        "Automatic",
+                        "Capitalize first",
+                        "all lower case"
+                    ]
+                }
             }
-        ]
+        }
     },
     "repository": {
         "url": "https://github.com/smashtestio/smash-language-vscode"
