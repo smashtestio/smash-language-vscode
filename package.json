@@ -2,7 +2,10 @@
     "name": "smash-language-vscode",
     "displayName": "Smashtest language support",
     "description": "Syntax highlighting for Smashtest",
-    "version": "0.1.1",
+    "keywords": [
+        "smashtest", "testing", "test", "QA", "smash"
+    ],
+    "version": "0.1.3",
     "engines": {
         "vscode": "*"
     },
@@ -34,5 +37,6 @@
     "repository": {
         "url": "https://github.com/smashtestio/smash-language-vscode"
     },
-    "publisher": "toofifty"
+    "publisher": "Smashtest",
+    "icon": "logo.png"
 }
