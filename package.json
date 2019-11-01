@@ -5,7 +5,7 @@
     "keywords": [
         "smashtest", "testing", "test", "QA", "smash"
     ],
-    "version": "0.1.6",
+    "version": "0.1.7",
     "engines": {
         "vscode": "*"
     },
